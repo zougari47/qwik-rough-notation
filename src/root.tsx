@@ -1,16 +1,20 @@
-import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import { RoughNotation } from '.';
 
 export default () => {
   return (
     <>
       <head>
-        <meta charset="utf-8" />
+        <meta charset='utf-8' />
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <h1>
+          <span>hello from the </span>
+          <RoughNotation color='red' type='box' show={true}>
+            other
+          </RoughNotation>
+          <span> side</span>
+        </h1>
       </body>
     </>
   );

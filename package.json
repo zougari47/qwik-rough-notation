@@ -50,5 +50,8 @@
     "undici": "*",
     "vite": "7.2.6",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "dependencies": {
+    "rough-notation": "^0.5.1"
   }
 }
