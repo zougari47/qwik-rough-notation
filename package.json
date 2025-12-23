@@ -1,7 +1,20 @@
 {
   "name": "qwik-rough-notation",
-  "version": "0.0.1",
-  "description": "Qwik wrapper for rough-noation.",
+  "version": "1.0.0",
+  "description": "Qwik wrapper for [RoughNotation](https://roughnotation.com/), a small JavaScript library to create and animate annotations on a web page.",
+  "keywords": [
+    "qwik",
+    "rough",
+    "notation",
+    "wrapper",
+    "rough-notation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zougari47/qwik-rough-notaion.git"
+  },
+  "author": "Ahmed Zougari",
+  "license": "MIT",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
