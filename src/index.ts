@@ -1,9 +1,5 @@
-export {
-  RoughNotation,
-  type RoughNotationProps,
-  type types,
-} from './rough-notation';
-export {
-  RoughNotationGroup,
-  type RoughNotationGroupProps,
-} from './rough-notation-group';
+export { RoughNotation } from './rough-notation';
+export type { RoughNotationProps, types } from './rough-notation';
+
+export { RoughNotationGroup } from './rough-notation-group';
+export type { RoughNotationGroupProps } from './rough-notation-group';

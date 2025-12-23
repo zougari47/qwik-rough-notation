@@ -1,10 +1,4 @@
-import {
-  component$,
-  useSignal,
-  useVisibleTask$,
-  Slot,
-  useStore,
-} from '@builder.io/qwik';
+import { component$, useSignal, useVisibleTask$, Slot, useStore } from '@builder.io/qwik';
 import { annotate } from 'rough-notation';
 import { useGroupContext } from '../rough-notation-group/rough-notation-group';
 import type { RoughNotationProps, Annotation } from './types';
@@ -149,11 +143,9 @@ export const RoughNotation = component$<RoughNotationProps>(
     const Element = customElement as any;
 
     return (
-      <Element ref={elementRef} {...rest} class='inline w-fit'>
+      <Element ref={elementRef} {...rest} class="inline w-fit">
         <Slot />
       </Element>
     );
   }
 );
-
-export default RoughNotation;
